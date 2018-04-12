@@ -50,31 +50,4 @@ sendElem = browser.find_element_by_xpath("//div[text()='Send']")
 sendElem.click()
 
 
-'''
-browser.get("http://www.espn.com")
-
-element = browser.find_element_by_link_text("NBA")
-element.click()
-'''
-#print('Found <%s> element with that class name!' % (element.tag_name))
-
-
-#print('Was not able to find an element with that name.') 
-
-#os.system("Send-MailMessage -To 'uchewill@gmail.com' -From 'uchewill@gmail.com' -Subject 'py test' -Body 'it worked' -SmtpServer 'smtp.gmail.com' -Credential 'uchewill@gmail.com' -UseSsl -Port 587 -DeliveryNotificationOption Never")
-
-#for x in range(0,1):
-	#os.system("start www.google.com")
-#os.start('https://gmail.com')
-
-#webbrowser.open(url, new=0, autoraise=True) 
-
-#person = input('Enter your name: ')
-#print('Hello', person)
-
-'''address = sys.argv[1:]
-print(*address)
-straddress = ''.join(address)
-
-webbrowser.open('https://www.google.com/maps/place/' + straddress)'''
 

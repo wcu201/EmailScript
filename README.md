@@ -1,5 +1,5 @@
 # EmailScript
 
-Simple python script that opens your email and sends a test password. 
+Simple python script that opens your email and sends a test email. 
 
 #Uses selenium 
